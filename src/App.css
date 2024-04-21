@@ -1,0 +1,108 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e3e7f245;
+}
+
+/*************** FORM *******************/
+.form input {
+  border: 2px solid mediumseagreen;
+}
+
+.form > h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.form input {
+  display: flex;
+  margin: 5px 0 10px 0px;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+main form button {
+  margin-top: 10px;
+}
+
+.error-input {
+  border: 1px solid red !important;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+}
+
+.button button {
+  background-color: #5c47d2;
+  width: 300px;
+  height: 45px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button p {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 15px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.eye i {
+  position: relative;
+  bottom: 35px;
+  left: 270px;
+  cursor: pointer;
+}
+
+/*************** STEPTWO *******************/
+
+.steptwo-div h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.steptwo-div2 {
+  background-color: #f2f2f2;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.steptwo-button {
+  display: flex;
+  justify-content: center;
+}
+
+.steptwo-button button {
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #5c47d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
